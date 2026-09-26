@@ -26,6 +26,8 @@
 
 </p>
 
+https://github.com/user-attachments/assets/8ac1fbe5-85c1-4ccd-a0aa-59ccaa080723
+
 <p align="center">
   <strong>
     A modern, responsive product management dashboard built with Next.js,
