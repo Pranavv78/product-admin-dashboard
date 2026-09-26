@@ -47,12 +47,12 @@ function ProductsDashboard() {
     const token = localStorage.getItem("token");
 
     if (!token) {
-      router.replace("/login");
+      window.location.replace("/login");
       return;
     }
 
     setAuthChecking(false);
-  }, [router]);
+  }, []);
 
   // =========================
   // Products state
