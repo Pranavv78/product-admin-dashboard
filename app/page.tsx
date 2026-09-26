@@ -28,6 +28,11 @@ function ProductsDashboard() {
   const searchParams = useSearchParams();
 
   // =========================
+  // Authentication state
+  // =========================
+  const [authChecking, setAuthChecking] = useState(true);
+
+  // =========================
   // Logout
   // =========================
   const handleLogout = () => {
@@ -42,8 +47,11 @@ function ProductsDashboard() {
     const token = localStorage.getItem("token");
 
     if (!token) {
-      router.push("/login");
+      router.replace("/login");
+      return;
     }
+
+    setAuthChecking(false);
   }, [router]);
 
   // =========================
@@ -520,6 +528,22 @@ function ProductsDashboard() {
     searchParams,
     router,
   ]);
+
+  // =========================
+  // Authentication loading
+  // =========================
+  if (authChecking) {
+    return (
+      <main className="min-h-screen bg-black p-10 text-white">
+        <div className="flex min-h-[60vh] items-center justify-center">
+          <div className="text-center">
+            <div className="mx-auto mb-4 h-8 w-8 animate-spin rounded-full border-4 border-gray-700 border-t-blue-500" />
+            <p className="text-gray-400">Checking authentication...</p>
+          </div>
+        </div>
+      </main>
+    );
+  }
 
   // =========================
   // Render
