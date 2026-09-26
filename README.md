@@ -12,8 +12,8 @@
 
 ### 🚀 LIVE DEMO
 
-<a https://product-admin-dashboard-qn6qno8ww-pranav-chavan.vercel.app/login>
-  <strong>https://product-admin-dashboard-plum-eight.vercel.app/</strong>
+<a href="https://product-admin-dashboard-qn6qno8ww-pranav-chavan.vercel.app/login">
+  <strong>https://product-admin-dashboard-qn6qno8ww-pranav-chavan.vercel.app/login</strong>
 </a>
 
 <br>
