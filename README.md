@@ -370,7 +370,7 @@ Products are displayed as responsive cards for better usability on smaller scree
 
 ## 🌐 Live Demo
 
-[Product Admin Dashboard](https://product-admin-dashboard-plum-eight.vercel.app/)
+[Product Admin Dashboard](https://product-admin-dashboard-qn6qno8ww-pranav-chavan.vercel.app/login)
 
 ## 💻 GitHub Repository
 
